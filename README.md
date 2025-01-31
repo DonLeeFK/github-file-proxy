@@ -10,7 +10,7 @@ A simple Deno application that acts as a proxy for accessing GitHub files in pri
 - Deployable to Deno Deploy
 
 ## Quick Deployment
-### Manage 
+Deploy via *Deno Deplpy*
 1. Fork this repository
 2. Log in to [Deno Deploy](https://dash.deno.com/)
 3. Create a new Deno Deploy application
