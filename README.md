@@ -10,7 +10,7 @@ A simple Deno application that acts as a proxy for accessing GitHub files in pri
 - Deployable to Deno Deploy
 
 ## Quick Deployment
-
+### Manage 
 1. Fork this repository
 2. Log in to [Deno Deploy](https://dash.deno.com/)
 3. Create a new Deno Deploy application
@@ -19,6 +19,7 @@ A simple Deno application that acts as a proxy for accessing GitHub files in pri
    - `PASSWORD`: The password for access protection
 5. Set the entry file to `main.ts`
 6. Deploy the application
+
 Alternatively, if you don't feel like nagivating the hassle of managing a project on GitHub, you can:
 1. Log in to [Deno Deploy](https://dash.deno.com/)
 2. Create a new playgroud
