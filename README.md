@@ -19,7 +19,14 @@ A simple Deno application that acts as a proxy for accessing GitHub files in pri
    - `PASSWORD`: The password for access protection
 5. Set the entry file to `main.ts`
 6. Deploy the application
-
+Alternatively, if you don't feel like nagivating the hassle of managing a project on GitHub, you can:
+1. Log in to [Deno Deploy](https://dash.deno.com/)
+2. Create a new playgroud
+3. Copy and paste `main.ts` to the playgroud editor
+4. Set the following environment variables:
+   - `GITHUB_TOKEN`: Your GitHub personal access token
+   - `PASSWORD`: The password for access protection
+5. Deploy the application
 
 
 
@@ -33,5 +40,5 @@ A simple Deno application that acts as a proxy for accessing GitHub files in pri
 
 ## Usage Examples
 
-Suppose you want to access the file `src/config.txt` in the `myrepo` repository owned by `myname`, on the `main` branch, and your Deno Deploy URL is `https://example.deno.dev/`, and your password is `secret`: https://example.deno.dev/myname/myrepo/main/src/config.txt?password=secret
+Suppose you want to access the file `src/config.txt` in the `myrepo` repository owned by `myname`, on the `main` branch, and your Deno Deploy URL is `https://example.deno.dev/`, and your password is `secret`: https://example.deno.dev/myname/myrepo/main/src/config.txt?password=secret. Or just copy `path_to_your_file` in `https://raw.githubusercontent.com/path_to_your_file`, and visit https://example.deno.dev/path_to_your_file?password=secret.
 
