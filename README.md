@@ -35,6 +35,3 @@ A simple Deno application that acts as a proxy for accessing GitHub files in pri
 
 Suppose you want to access the file `src/config.txt` in the `myrepo` repository owned by `myname`, on the `main` branch, and your Deno Deploy URL is `https://example.deno.dev/`, and your password is `secret`: https://example.deno.dev/myname/myrepo/main/src/config.txt?password=secret
 
-## License
-
-MIT License
